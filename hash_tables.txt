@@ -1,0 +1,7 @@
+takes a string, uses a hash function, gives an index to look into an array
+
+infinite strings, finite hash codes. Collision may occur, when the same string hashes to the same index.
+
+Solution > Chainging - take that array index and turn it into a linked list, containing the key and the item
+
+constant time O(1) often, linear time worst case O(n)
